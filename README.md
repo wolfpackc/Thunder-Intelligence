@@ -40,6 +40,6 @@ Python / SQLite backend → local browser dashboard
 
 The dashboard displays vehicle telemetry and per-session statistics, tracks player routes on available maps, and presents combat/HUD events where the game exposes them. The dashboard runs **locally**; the portfolio is a separate presentation website, not a hosted instance of the application.
 
-**Source and binaries note:** The public ZIP is a sanitized distribution from the supplied project folder. It excludes secrets and local capture files. Set up your own Confluent Cloud resources and follow the included project documentation. Images may have third-party licensing requirements; see `creditos.html`.
+**Source and binaries note:** The public ZIP is a sanitized distribution from the supplied project folder. It excludes secrets and local capture files. Set up your own Confluent Cloud resources and follow the included project documentation.
 
 **Eduardo Romera Martínez**
