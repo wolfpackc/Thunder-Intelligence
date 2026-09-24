@@ -1,21 +1,34 @@
 # Thunder Intelligence
 
-**Real-time War Thunder telemetry analytics using Confluent Cloud, Apache Kafka and Apache Flink.**
+**Real-time War Thunder telemetry analytics · Python · Confluent Cloud · Apache Kafka · Apache Flink**
 
-[**Explore Thunder Intelligence on my portfolio →**](https://educypher.gt.tc/)
+[![Thunder Intelligence presentation cover](./Thunder_Intelligence_Cover.png)](./Thunder_Intelligence_Presentation_EN.pdf)
 
-On the website, find **Thunder Intelligence** in the projects section and select **“Ver proyecto”** (View project).
+### Explore the project
 
-[**View the project presentation (PDF) →**](./Thunder_Intelligence_Presentation_EN.pdf)
+[**Open the project on my portfolio →**](https://educypher.gt.tc/)  
+On the website, open the **Projects** section, find **Thunder Intelligence** and select **“Ver proyecto”** (View project). The portfolio offers additional material and context alongside this downloadable program.
 
-The presentation includes a QR code linking to the portfolio, an overview of the architecture and screenshots of the project.
+[**View the complete presentation (PDF) →**](./Thunder_Intelligence_Presentation_EN.pdf)  
+GitHub opens the PDF in its file viewer. The final page includes a QR code pointing to the portfolio.
 
-## Project at a glance
+[**Download the project ZIP →**](./Thunder_Intelligence_Project_Public.zip)  
+Download the ZIP, extract it and read `PUBLIC_RELEASE_NOTES.md`. It contains the program and its media library, **not** private Confluent credentials, the local Python environment, or personal gameplay history.
 
-War Thunder local API → Python collector → Confluent Cloud / Kafka → Apache Flink → Kafka statistics → Python / SQLite dashboard.
+### How it works
 
-The application captures available aircraft and ground-vehicle telemetry, calculates per-session statistics and displays vehicle information, routes on maps and combat events in a local web dashboard.
+```text
+War Thunder local HTTP API (8111)
+    ↓
+Python collector → Confluent Cloud / Kafka telemetry
+    ↓
+Apache Flink SQL → keyed Kafka statistics
+    ↓
+Python / SQLite backend → local browser dashboard
+```
 
-> **Presentation-only repository.** The application source code, local database and Confluent Cloud credentials are not published here. The portfolio contains the project presentation; the demonstrated dashboard runs locally.
+The dashboard displays vehicle telemetry and per-session statistics, tracks player routes on available maps, and presents combat/HUD events where the game exposes them. The dashboard runs **locally**; the portfolio is a separate presentation website, not a hosted instance of the application.
+
+**Source and binaries note:** The public ZIP is a sanitized distribution from the supplied project folder. It excludes secrets and local capture files. Set up your own Confluent Cloud resources and follow the included project documentation. Images may have third-party licensing requirements; see `creditos.html`.
 
 **Eduardo Romera Martínez**
