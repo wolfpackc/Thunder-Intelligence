@@ -1,3 +1,4 @@
+
 # Thunder Intelligence
 
 **Real-time War Thunder telemetry analytics · Python · Confluent Cloud · Apache Kafka · Apache Flink**
@@ -14,6 +15,16 @@ GitHub opens the PDF in its file viewer. The final page includes a QR code point
 
 [**Download the project ZIP →**](./Thunder_Intelligence_Project_Public.zip)  
 Download the ZIP, extract it and read `PUBLIC_RELEASE_NOTES.md`. It contains the program and its media library, **not** private Confluent credentials, the local Python environment, or personal gameplay history.
+
+### Videos for the competition reviewers
+
+These two videos provide additional material about Thunder Intelligence for the Confluent Developer Day competition.
+
+**[Watch Video 1 on YouTube →](https://youtu.be/_hgu6G5umRs)**
+
+**[Watch Video 2 on YouTube →](https://youtu.be/-tlqEwS3cf4)**
+
+For more project information, screenshots and related work, visit my [personal portfolio](https://educypher.gt.tc/).
 
 ### How it works
 
