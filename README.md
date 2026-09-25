@@ -262,6 +262,7 @@ Thunder_Intelligence_Presentation_EN.pdf
 It provides a higher-level introduction to the idea, architecture and technologies used in the project.
 
 ## Technologies
+<img width="1080" height="1050" alt="65w53gte (1)" src="https://github.com/user-attachments/assets/ce5572db-6bda-4505-9857-22a83755daf5" />
 
 **Python · Apache Kafka · Apache Flink · Confluent Cloud · SQLite · JavaScript · HTML · CSS · War Thunder Local API**
 
