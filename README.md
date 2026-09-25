@@ -10,35 +10,8 @@ I built the project to experiment with a complete real-time pipeline rather than
 
 ## Architecture
 
-```text
-War Thunder
-    │
-    │ Local API · 127.0.0.1:8111
-    ▼
-thunder_collector_v2_6.py
-    │
-    ├──────────────► warthunder-events
-    │
-    ▼
-warthunder-telemetry-v2
-    │
-    ├──────────────────────────────┐
-    │                              │
-    ▼                              │
-Apache Flink                       │
-    │                              │
-    ▼                              │
-warthunder-stats-v2               │
-    │                              │
-    └──────────────┬───────────────┘
-                   ▼
-          thunder_dashboard.py
-                   │
-                   ├── SQLite session history
-                   │
-                   ▼
-          http://127.0.0.1:8765
-```
+<img width="1920" height="1080" alt="geometric-instagram-183-landscape-1920x1080" src="https://github.com/user-attachments/assets/15faff8d-11c8-4b0d-bef2-4974b780b2fb" />
+
 
 The dashboard consumes the aggregated statistics produced through Flink and also reads raw telemetry and event data from Kafka where required. SQLite is used locally to preserve captured session information between executions.
 
