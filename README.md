@@ -251,4 +251,6 @@ It provides a higher-level introduction to the idea, architecture and technologi
 
 **Eduardo Romera Martínez**
 
+www.linkedin.com/in/eduardo-romera-917879346
+
 Personal software and data-streaming project focused on real-time telemetry, event processing and visualization.
