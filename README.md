@@ -22,7 +22,7 @@ Click a card below to open the corresponding resource.
 <td><a href="https://educypher.gt.tc/"><img src="./assets/links/portfolio.svg" alt="Portfolio"></a></td>
 </tr>
 <tr>
-<td colspan="2"><a href="./Thunder_Intelligence_Project_Public.zip"><img src="./assets/links/download.svg" alt="Download Project ZIP"></a></td>
+<td colspan="2" align="center"><a href="./Thunder_Intelligence_Project_Public.zip"><img src="./assets/links/download.svg" width="100%" alt="Download Project ZIP"></a></td>
 </tr>
 </table>
 
