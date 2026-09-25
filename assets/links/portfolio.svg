@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="150"><rect width="640" height="150" rx="18" fill="#0d1117"/><rect x="3" y="3" width="634" height="144" rx="16" fill="none" stroke="#30d158" stroke-width="4"/><text x="45" y="70" fill="white" font-family="Arial" font-size="34" font-weight="bold">PORTFOLIO</text><text x="45" y="110" fill="#aaa" font-family="Arial" font-size="22">MORE PROJECTS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0b1118"/><stop offset="1" stop-color="#101a25"/></linearGradient></defs>
+<rect width="760" height="170" rx="14" fill="url(#g)"/>
+<rect x="1" y="1" width="758" height="168" rx="13" fill="none" stroke="#33475b" stroke-width="2"/>
+<rect x="0" y="0" width="5" height="170" rx="2" fill="#58a6ff"/>
+<text x="34" y="39" fill="#6e8aa3" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">04</text>
+<circle cx="72" cy="98" r="27" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<path d="M65 85 L65 111 L84 98 Z" fill="#58a6ff"/>
+<text x="120" y="92" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="1">PORTFOLIO</text>
+<text x="120" y="125" fill="#8b9eb0" font-family="Arial,sans-serif" font-size="19">More Projects</text>
+<text x="700" y="110" fill="#58a6ff" font-family="Arial,sans-serif" font-size="42">›</text>
+</svg>
