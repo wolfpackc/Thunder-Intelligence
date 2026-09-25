@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170">
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#0b1118"/><stop offset="1" stop-color="#101a25"/></linearGradient></defs>
-<rect width="760" height="170" rx="14" fill="url(#g)"/>
-<rect x="1" y="1" width="758" height="168" rx="13" fill="none" stroke="#33475b" stroke-width="2"/>
-<rect x="0" y="0" width="5" height="170" rx="2" fill="#58a6ff"/>
-<text x="34" y="39" fill="#6e8aa3" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">01</text>
-<circle cx="72" cy="98" r="27" fill="none" stroke="#58a6ff" stroke-width="2"/>
-<path d="M65 85 L65 111 L84 98 Z" fill="#58a6ff"/>
-<text x="120" y="92" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="1">QUICK START</text>
-<text x="120" y="125" fill="#8b9eb0" font-family="Arial,sans-serif" font-size="19">Watch Video 1</text>
-<text x="700" y="110" fill="#58a6ff" font-family="Arial,sans-serif" font-size="42">›</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150"><rect width="760" height="150" rx="8" fill="#0b1118"/><rect x=".75" y=".75" width="758.5" height="148.5" rx="7.25" fill="none" stroke="#263442" stroke-width="1.5"/><rect x="0" y="0" width="3" height="150" fill="#58a6ff"/><text x="30" y="38" fill="#60758a" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3">01</text><text x="30" y="87" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" letter-spacing=".5">QUICK START</text><text x="30" y="118" fill="#8294a6" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="2">WATCH VIDEO 1</text><path d="M700 69h20m-8-8 8 8-8 8" fill="none" stroke="#58a6ff" stroke-width="2"/></svg>
